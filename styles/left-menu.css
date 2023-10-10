@@ -1,0 +1,180 @@
+.fixed-menu
+{
+    height: 100vh;
+    width: 20rem;
+
+}
+
+@media (max-width: 1545px)
+{
+    .fixed-menu
+    {
+        width: 30vh;
+    }
+}
+
+@media (max-width: 1250px) 
+{
+    .text-container span, .etc span, .text-container .notif-container
+    {
+        display: none;
+    }
+
+    .title-container img
+    {
+        content: url("/images/icons/min-logo.png");
+        width: 24px;
+        height: 24px;
+
+    }
+
+    .title-container
+    {
+        height: 73px;
+        width: 48px;
+        padding-bottom: 35px;
+        margin-top: 20px
+    }
+
+    .title-container .title
+    {
+
+        padding: 12px;
+        margin: 4px 0 4px 0;
+    }
+
+    .fixed-menu, .etc-container, .etc
+    {
+        width: 48px;
+    }
+
+    .text-container .icon, .more-text-container .more
+    {
+        margin: 0 4px 0 4px;
+    }
+}
+
+@media (max-width: 1160px)
+{
+    .info
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 956px)
+{
+    .bottom-copyright .top-bottom
+    {
+        display: none;
+    }
+}
+
+.left-menu
+{
+
+    height: 100vh;
+    width: inherit;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(38, 38, 38);
+    padding: 12px;
+}
+
+.logo
+{
+    height: 29px;
+    width: 103px;
+}
+
+.title
+{ 
+    margin-top: 8px;
+    padding: 25px 12px 16px 12px;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+.icon, .more
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    margin: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    width: inherit;
+}
+
+
+.icon-img, .profile-icon
+{
+    height: 24px;
+    width: 24px;
+}
+
+.notif-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    background-color: red;
+    border-radius: 9px;
+    position: absolute;
+    top: 6px;
+    left: 28px;
+
+}
+
+.icon .notif
+{
+    font-size: 11px;
+    padding: 0; 
+
+}
+
+.profile-icon
+{
+    border-radius: 12px;
+}
+
+.icon:hover, .more:hover
+{
+    background-color: rgb(33, 33, 33);
+}
+
+
+.text-container, .more-text-container
+{
+    position: relative;
+    width: min-content;
+    height: 56px;
+    width: inherit;
+}
+
+.text-container span, .more-text-container span
+{
+    padding-left: 16px;
+}
+
+.more-text-container
+{
+    margin-bottom: 20px;
+}
+
+.menu
+{
+    flex: 1;
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+body
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color: black;
+    font-family:'Open Sans';
+    color: white;
+    min-width: 740px;
+}
+
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+    justify-content: center;
+    height: 100%;
+}
+
+
