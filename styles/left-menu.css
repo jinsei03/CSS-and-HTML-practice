@@ -22,7 +22,7 @@
 
     .title-container img
     {
-        content: url("/images/icons/min-logo.png");
+        content: url("images/icons/min-logo.png");
         width: 24px;
         height: 24px;
 
